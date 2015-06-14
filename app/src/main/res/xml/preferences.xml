@@ -1,0 +1,41 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Налаштування тексту">
+        <PreferenceScreen
+            android:key="@string/pr_color"
+            android:title="Колір тексту"
+            android:summary="Встановити колір тексту">
+            <CheckBoxPreference
+                android:key="@string/pr_color_black"
+                android:title="Чорний"
+                android:defaultValue="true"
+                android:summary="Встановити чорний колір"/>
+            <CheckBoxPreference
+                android:key="@string/pr_color_red"
+                android:title="Червоний"
+                android:summary="Встановити червоний колір"/>
+            <CheckBoxPreference
+                android:key="@string/pr_color_green"
+                android:title="Зелений"
+                android:summary="Встановити зелений колір"/>
+            <CheckBoxPreference
+                android:key="@string/pr_color_blue"
+                android:title="Синій"
+                android:summary="Встановити синій колір"/>
+        </PreferenceScreen>
+        <EditTextPreference
+            android:key="@string/pr_size"
+            android:title="Розмір тексту"
+            android:summary="Встановити розмір"
+            android:defaultValue="14"
+            android:dialogTitle="Введіть розмір шрифту (від 10 до 32)"/>
+        <ListPreference
+            android:key="@string/pr_style"
+            android:title="Стиль тексту"
+            android:summary="Встановити стиль тексту"
+            android:defaultValue="1"
+            android:entries="@array/text_style"
+            android:entryValues="@array/text_style"
+            android:dialogTitle="Обрати стиль тексту"/>
+    </PreferenceCategory>
+</PreferenceScreen>

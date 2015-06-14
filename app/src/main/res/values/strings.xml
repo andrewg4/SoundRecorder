@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Диктофон</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Показати всі записи</string>
+
+    <string name="menu_exit">Вихід</string>
+
+    <string name="pr_color">Колір</string>
+    <string name="pr_color_black">Чорний колір</string>
+    <string name="pr_color_red">Червоний колір</string>
+    <string name="pr_color_green">Зелений колір</string>
+    <string name="pr_color_blue">Синій колір</string>
+    <string name="pr_style">Стиль</string>
+    <string name="pr_style_regular">Звичайний</string>
+    <string name="pr_size">Розмір</string>
+    <string name="pr_style_bold">Жирний</string>
+    <string name="pr_style_italic">Курсив</string>
+    <string name="menu_settings">Налаштування</string>
+</resources>
